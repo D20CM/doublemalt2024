@@ -1,0 +1,11 @@
+.about {
+  padding: 2em 7em;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1em;
+  align-items: center;
+}
+
+.about p {
+  padding: 0 2em;
+}

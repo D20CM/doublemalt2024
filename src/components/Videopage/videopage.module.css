@@ -1,0 +1,49 @@
+.videopage {
+  padding: 2em 7em;
+}
+
+hr {
+  margin: 2em;
+}
+
+h2 span {
+  color: var(--primary-highlight);
+}
+.acoustic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.acousticvideo {
+}
+
+.acousticvideo iframe {
+  width: 560px;
+  height: 315px;
+}
+
+.electric {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-items: center;
+}
+
+.electricvideo {
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0px;
+}
+
+.electricvideo iframe {
+  width: 560px;
+  height: 315px;
+}
+
+.electricdescription {
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0px;
+}

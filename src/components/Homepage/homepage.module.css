@@ -1,0 +1,65 @@
+.homepageFull {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  min-height: 100vh;
+  padding: 0 7em;
+}
+
+.homepagLeft {
+  justify-self: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.homepagLeft hr {
+  width: 90%;
+  margin: auto;
+  fill: var(--primary-highlight);
+  border: 1px solid var(--primary-highlight);
+}
+
+.bulletpoints {
+  margin: 2em 0;
+}
+.homepageRight {
+  justify-self: flex-end;
+  max-height: 100%;
+}
+
+.duoname {
+  font-family: "Libre Caslon Display";
+  font-size: 4em;
+  white-space: pre-wrap;
+}
+
+.duoname span {
+  color: var(--primary-highlight);
+}
+
+.blurb {
+  margin-top: 1em;
+}
+
+.dm_homepage_photo {
+  max-height: 90vh;
+}
+
+@media screen and (max-width: 480px) {
+  .homepageFull {
+    grid-template-columns: 1fr;
+    padding: 1em;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .homepagLeft {
+    grid-template-rows: auto;
+  }
+
+  .duoname {
+    font-size: 3em;
+    text-align: center;
+  }
+}
