@@ -10,9 +10,9 @@ function App() {
   return (
     <>
       <Homepage />
-      {/* <Videopage /> */}
-      {/* <About /> */}
-      {/* <Contact /> */}
+      <Videopage />
+      <About />
+      <Contact />
     </>
   );
 }

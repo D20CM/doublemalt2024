@@ -9,3 +9,14 @@
 .about p {
   padding: 0 2em;
 }
+
+@media screen and (max-width: 480px) {
+  .about {
+    padding: 2em;
+    grid-template-columns: auto;
+  }
+
+  .about p {
+    padding: 0;
+  }
+}

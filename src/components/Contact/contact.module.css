@@ -12,3 +12,14 @@
 .contactimage img {
   max-height: 100vh;
 }
+
+@media screen and (max-width: 480px) {
+  .contact {
+    padding: 2em;
+    grid-template-columns: 1fr;
+  }
+  .contactimage {
+    max-width: 100%;
+    justify-self: center;
+  }
+}

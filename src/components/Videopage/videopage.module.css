@@ -47,3 +47,25 @@ h2 span {
   flex-shrink: 1;
   flex-basis: 0px;
 }
+
+@media screen and (max-width: 480px) {
+  .videopage {
+    padding: 2em;
+  }
+  .acoustic {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .acousticvideo iframe,
+  .electricvideo iframe {
+    width: 100%;
+  }
+
+  .electric {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+  }
+}
