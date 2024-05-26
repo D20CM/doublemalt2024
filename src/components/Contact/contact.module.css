@@ -4,6 +4,22 @@
   grid-template-columns: 1fr 1fr;
 }
 
+a {
+  color: var(--secondary-highlight);
+}
+
+.socials i {
+  color: var(--primary-highlight);
+  font-size: 4em;
+  padding-right: 0.3em;
+  transition: all 0.5s ease;
+}
+
+.socials i:hover {
+  color: var(--secondary-highlight);
+  scale: 1.05;
+}
+
 .contactimage {
   max-width: 50%;
   justify-self: flex-end;
@@ -13,13 +29,23 @@
   max-height: 100vh;
 }
 
-@media screen and (max-width: 480px) {
+.qrcode {
+  display: block;
+  max-width: 10em;
+  margin: 1em auto;
+}
+
+@media screen and (max-width: 900px) {
   .contact {
-    padding: 2em;
+    padding: 1em;
     grid-template-columns: 1fr;
   }
   .contactimage {
     max-width: 100%;
     justify-self: center;
+  }
+
+  .socials i {
+    font-size: 3em;
   }
 }

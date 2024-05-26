@@ -4,6 +4,7 @@ import css from "./videopage.module.css";
 function Videopage() {
   return (
     <section className={css.videopage}>
+      <hr></hr>
       <div className={css.acoustic}>
         <div className={css.acousticvideo}>
           <iframe
@@ -73,6 +74,7 @@ function Videopage() {
           </p>
         </div>
       </div>
+      <hr></hr>
     </section>
   );
 }

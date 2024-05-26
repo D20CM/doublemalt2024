@@ -1,7 +1,13 @@
 nav {
   background-color: var(--grey);
-  margin: 1em 2em;
+  /* margin: 1em 2em; */
   font-family: "Libre Caslon Display";
+  border-top: 1em solid white;
+  border-bottom: 1em solid white;
+  border-left: 2em solid white;
+  border-right: 2em solid white;
+  position: fixed;
+  width: 100%;
 }
 
 nav ul {
@@ -9,7 +15,7 @@ nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 1em;
+  padding: 0.5em 1em;
 }
 
 nav ul li {

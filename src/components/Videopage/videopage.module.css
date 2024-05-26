@@ -1,5 +1,5 @@
 .videopage {
-  padding: 2em 7em;
+  padding: 2em 7em 0em;
 }
 
 hr {
@@ -15,11 +15,23 @@ h2 span {
 }
 
 .acousticvideo {
+  align-content: center;
 }
 
 .acousticvideo iframe {
   width: 560px;
   height: 315px;
+}
+
+.acousticdescription {
+  padding-left: 2em;
+}
+
+hr {
+  width: 100%;
+  margin: 1.5em auto;
+  fill: var(--primary-highlight);
+  border: 1px solid var(--primary-highlight);
 }
 
 .electric {
@@ -34,6 +46,7 @@ h2 span {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0px;
+  align-content: center;
 }
 
 .electricvideo iframe {
@@ -46,11 +59,12 @@ h2 span {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0px;
+  padding-right: 2em;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .videopage {
-    padding: 2em;
+    padding: 1em;
   }
   .acoustic {
     display: grid;
@@ -67,5 +81,10 @@ h2 span {
     flex-direction: column;
     width: 100%;
     justify-items: center;
+  }
+
+  .acousticdescription,
+  .electricdescription {
+    padding: 0;
   }
 }

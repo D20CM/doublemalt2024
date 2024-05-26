@@ -1,18 +1,18 @@
 .homepageFull {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 
-  min-height: 100vh;
-  padding: 0 7em;
+  height: 100vh;
+  padding: 2em 7em;
+  margin-bottom: 2em;
 }
 
 .homepagLeft {
   justify-self: center;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
 }
 
-.homepagLeft hr {
+hr {
   width: 90%;
   margin: auto;
   fill: var(--primary-highlight);
@@ -21,16 +21,29 @@
 
 .bulletpoints {
   margin: 2em 0;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: span 1;
 }
-.homepageRight {
+/* .homepageRight {
   justify-self: flex-end;
   max-height: 100%;
-}
+  align-content: center;
+} */
 
 .duoname {
+  display: flex;
+  flex-direction: column;
   font-family: "Libre Caslon Display";
   font-size: 4em;
   white-space: pre-wrap;
+  padding-top: 0.5em;
+  padding-left: 0.2em;
+  margin-bottom: 0;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start: 1;
 }
 
 .duoname span {
@@ -39,19 +52,30 @@
 
 .blurb {
   margin-top: 1em;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  grid-column-start: 1;
 }
 
 .dm_homepage_photo {
+  margin-top: 2em;
   max-height: 90vh;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  justify-self: end;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .homepageFull {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-auto-rows: max-content;
     padding: 1em;
     margin: 0;
     text-align: center;
     justify-content: center;
+    height: auto;
   }
 
   .homepagLeft {
@@ -61,5 +85,31 @@
   .duoname {
     font-size: 3em;
     text-align: center;
+    flex-direction: row;
+    gap: 0.2em;
+    margin: auto;
+    transform: translate(-0.2em, 0);
+  }
+
+  .dm_homepage_photo {
+    margin-top: 2em;
+    max-height: 90vh;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    justify-self: center;
+  }
+
+  .bulletpoints {
+    margin: 2em 0;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+  }
+
+  .blurb {
+    margin-top: 1em;
+    grid-row-start: 4;
   }
 }
