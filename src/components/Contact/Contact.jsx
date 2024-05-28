@@ -1,4 +1,3 @@
-import React from "react";
 import css from "./contact.module.css";
 import dm_contact_photo from "../../assets/images/dm_contact_photo.jpg";
 import bmc_qr_doublemaltduo from "../../assets/images/bmc_qr_doublemaltduo_tipjar.png";
@@ -21,7 +20,7 @@ function Contact() {
             alt="Double Malt Duo on Facebook"
           >
             <i
-              class="fab large-social fa-facebook-square"
+              className="fab large-social fa-facebook-square"
               data-toggle="tooltip"
               title="Facebook"
             ></i>
@@ -33,7 +32,7 @@ function Contact() {
             alt="Double Malt Duo on Instagram"
           >
             <i
-              class="fab large-social fa-instagram-square"
+              className="fab large-social fa-instagram-square"
               data-toggle="tooltip"
               title="Instagram"
             ></i>
@@ -44,7 +43,7 @@ function Contact() {
             alt="Double Malt Duo on YouTube"
           >
             <i
-              class="fab large-social fa-youtube-square"
+              className="fab large-social fa-youtube-square"
               data-toggle="tooltip"
               title="Youtube"
             ></i>

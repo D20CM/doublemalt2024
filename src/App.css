@@ -25,3 +25,18 @@ h2 {
 p {
   margin: 1em 0;
 }
+
+.star {
+  color: var(--primary-highlight);
+  transform: translate(-1em);
+}
+
+ul {
+  list-style-type: none;
+  list-style-position: outside;
+  padding-left: 2em;
+}
+
+li {
+  text-indent: -1em;
+}

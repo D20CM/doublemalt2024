@@ -1,5 +1,6 @@
-import React from "react";
 import css from "./videopage.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 function Videopage() {
   return (
@@ -10,9 +11,8 @@ function Videopage() {
           <iframe
             src="https://www.youtube.com/embed/d6ErXccuLM0?si=H8_qX9er4C6XwzNF"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
+            referrerPolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
         </div>
@@ -21,8 +21,14 @@ function Videopage() {
             <span>A</span>coustic
           </h2>
           <ul>
-            <li>Two Acoustic Guitars, plus backing vocals</li>
-            <li>Acoustic covers of popular classics</li>
+            <li>
+              <FontAwesomeIcon icon={faStar} className="star" />
+              Two Acoustic Guitars, plus backing vocals
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faStar} className="star" />
+              Acoustic covers of popular classics
+            </li>
           </ul>
           <p>
             The Double Malt Duo play music to suit a variety of tastes. They
@@ -45,9 +51,8 @@ function Videopage() {
           <iframe
             src="https://www.youtube.com/embed/ghyOTz2i3oQ?si=VMKASp6ZPH5rVYAR"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
+            referrerPolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
         </div>
@@ -56,8 +61,14 @@ function Videopage() {
             <span>E</span>lectric
           </h2>
           <ul>
-            <li>High quality backing tracks for high energy performances</li>
-            <li>Electric guitar and Saxophone</li>
+            <li>
+              <FontAwesomeIcon icon={faStar} className="star" />
+              High quality backing tracks for high energy performances
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faStar} className="star" />
+              Electric guitar and Saxophone
+            </li>
           </ul>
           <p>
             For a livelier atmosphere, the Double Malt Duo brings the party!
