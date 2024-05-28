@@ -8,18 +8,20 @@ function Homepage() {
     <>
       {/* <Navbar /> */}
       <section className={css.homepageFull}>
-        <h1 className={css.duoname}>
-          <div>
-            <span>D</span>ouble
-          </div>
-          <div>
-            <span>M</span>alt
-          </div>
-          <div>
-            <span>D</span>uo
-          </div>
-        </h1>
-
+        <div>
+          <h1 className={css.duoname}>
+            <div>
+              <span>D</span>ouble
+            </div>
+            <div>
+              <span>M</span>alt
+            </div>
+            <div>
+              <span>D</span>uo
+            </div>
+          </h1>
+          <hr></hr>
+        </div>
         <ul className={css.bulletpoints}>
           <li>
             <span>

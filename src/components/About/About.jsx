@@ -38,7 +38,7 @@ function About() {
           <img src={scottsolo}></img>
           <img src={kathleensolo}></img>
         </div>
-        {/* <hr></hr> */}
+        <hr></hr>
       </section>
     </>
   );

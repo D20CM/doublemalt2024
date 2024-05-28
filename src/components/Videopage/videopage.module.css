@@ -1,9 +1,10 @@
 .videopage {
   padding: 2em 7em 0em;
+  margin-top: 0;
 }
 
-hr {
-  margin: 2em;
+.videopage hr {
+  margin-top: 1em;
 }
 
 h2 span {
@@ -29,13 +30,6 @@ h2 span {
 
 .acousticdescription {
   padding-left: 2em;
-}
-
-hr {
-  width: 100%;
-  margin: 1.5em auto;
-  fill: var(--primary-highlight);
-  border: 1px solid var(--primary-highlight);
 }
 
 .electric {
