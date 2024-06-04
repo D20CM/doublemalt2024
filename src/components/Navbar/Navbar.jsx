@@ -1,17 +1,12 @@
-import css from "./navbar.module.css";
+import DesktopNav from "./DesktopNav";
+import MobileNav from "./MobileNav";
 
 function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Music & Video</li>
-        <li>About</li>
-        <li>Photos</li>
-        <li>Contact</li>
-        <li>Tipjar</li>
-      </ul>
-    </nav>
+    <>
+      <DesktopNav />
+      <MobileNav />
+    </>
   );
 }
 

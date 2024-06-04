@@ -1,5 +1,5 @@
 .about {
-  padding: 2em 7em;
+  padding: 2em 7em 0;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: auto;
@@ -16,6 +16,7 @@
   grid-row: 2;
   grid-column-start: 1;
   grid-column-end: 4;
+  margin: 1em auto;
 }
 
 .headshots {
@@ -36,6 +37,10 @@
 
   .about p {
     padding: 0;
+  }
+
+  .about hr {
+    margin: 3em auto 0;
   }
 
   .headshots {

@@ -1,0 +1,24 @@
+.DesktopNav {
+  /* margin: 1em 2em; */
+  font-family: "Libre Caslon Display";
+  border-top: 1em solid white;
+  border-bottom: 1em solid white;
+  border-left: 2em solid white;
+  border-right: 2em solid white;
+  position: fixed;
+  width: 100%;
+  display: none;
+}
+
+.DesktopNav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0.5em 1em;
+}
+
+.DesktopNav ul li {
+  text-transform: uppercase;
+  list-style: none;
+}

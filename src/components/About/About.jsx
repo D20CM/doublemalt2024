@@ -1,4 +1,3 @@
-import React from "react";
 import kathleensolo from "../../assets/images/kathleensolo.jpg";
 import scottsolo from "../../assets/images/scottsolo.jpg";
 import css from "./about.module.css";

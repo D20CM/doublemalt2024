@@ -6,7 +6,6 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 function Homepage() {
   return (
     <>
-      {/* <Navbar /> */}
       <section className={css.homepageFull}>
         <div>
           <h1 className={css.duoname}>

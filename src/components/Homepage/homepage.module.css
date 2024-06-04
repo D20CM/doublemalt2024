@@ -4,18 +4,7 @@
   grid-template-rows: auto;
   height: auto;
   max-height: max-content;
-  padding: 2em 7em;
-}
-
-.homepagLeft {
-  justify-self: center;
-}
-
-hr {
-  /* width: 50%;
-  margin: 0 2em;
-  fill: var(--primary-highlight);
-  border: 1px solid var(--primary-highlight); */
+  padding: 2em 7em 0;
 }
 
 .bulletpoints {
@@ -26,11 +15,6 @@ hr {
   grid-row-start: 2;
   grid-row-end: span 1;
 }
-/* .homepageRight {
-  justify-self: flex-end;
-  max-height: 100%;
-  align-content: center;
-} */
 
 .duoname {
   display: flex;
@@ -51,7 +35,7 @@ hr {
 }
 
 .blurb {
-  margin-top: 1em;
+  margin-top: 0 auto;
   grid-row-start: 3;
   grid-row-end: 4;
   grid-column-start: 1;
@@ -76,10 +60,6 @@ hr {
     text-align: center;
     justify-content: center;
     height: auto;
-  }
-
-  .homepagLeft {
-    grid-template-rows: auto;
   }
 
   .duoname {
@@ -114,7 +94,7 @@ hr {
   }
 
   .blurb {
-    margin-top: 1em;
+    margin: 0 auto;
     grid-row-start: 4;
   }
 }
