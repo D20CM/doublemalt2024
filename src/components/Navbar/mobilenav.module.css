@@ -7,7 +7,7 @@
   right: 0;
   background: var(--black);
   z-index: 1000;
-  padding: 1em 1em 0;
+  /* padding: 1em 1em 0; */
   font-size: 1.5em;
   font-family: "Libre Caslon Display";
   color: var(--white);
@@ -16,10 +16,21 @@
 .MobileNav ul {
   padding-inline-start: 0;
   padding: 1em;
+  margin: 1em;
 }
 
 .MobileNav ul li span {
   color: var(--primary-highlight);
+}
+
+.MobileNav ul li a {
+  text-decoration: none;
+  color: var(--white);
+  transition: ease 0.3s all;
+}
+
+.MobileNav ul li a:hover {
+  text-decoration: underline;
 }
 .burger,
 .close {
@@ -28,4 +39,10 @@
   right: 1em;
   color: var(--primary-highlight);
   cursor: pointer;
+}
+
+@media screen and (min-width: 1100px) {
+  .MobileNav {
+    display: none;
+  }
 }

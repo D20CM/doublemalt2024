@@ -5,7 +5,7 @@ import css from "./about.module.css";
 function About() {
   return (
     <>
-      <section className={css.about}>
+      <section className={css.about} id="about">
         <div>
           <h2>
             <span>A</span>bout Us

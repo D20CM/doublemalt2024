@@ -7,6 +7,7 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
+  const closeMenu = () => setIsOpen(false);
 
   return (
     <nav className={css.MobileNav}>
@@ -25,7 +26,7 @@ function MobileNav() {
         />
       )}
 
-      {isOpen && <NavLinks />}
+      {isOpen && <NavLinks isOpen={isOpen} closeMenu={closeMenu} />}
     </nav>
   );
 }

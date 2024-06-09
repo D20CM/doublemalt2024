@@ -3,7 +3,7 @@ import dm_contact_photo from "../../assets/images/dm_contact_photo.jpg";
 import bmc_qr_doublemaltduo from "../../assets/images/bmc_qr_doublemaltduo_tipjar.png";
 function Contact() {
   return (
-    <section className={css.contact}>
+    <section className={css.contact} id="contact">
       <div className={css.contactinfo}>
         <h2>
           <span>C</span>ontact

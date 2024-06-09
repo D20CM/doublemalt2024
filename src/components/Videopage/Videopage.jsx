@@ -4,7 +4,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 function Videopage() {
   return (
-    <section className={css.videopage}>
+    <section className={css.videopage} id="videopage">
       <hr></hr>
       <div className={css.acoustic}>
         <div className={css.acousticvideo}>
