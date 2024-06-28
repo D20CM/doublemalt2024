@@ -1,5 +1,5 @@
-import kathleensolo from "../../assets/images/kathleensolo.jpg";
-import scottsolo from "../../assets/images/scottsolo.jpg";
+import kathleensolo from "../../assets/images/kathleensolo.webp";
+import scottsolo from "../../assets/images/scottsolo.webp";
 import css from "./about.module.css";
 
 function About() {

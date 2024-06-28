@@ -1,5 +1,5 @@
 import css from "./contact.module.css";
-import dm_contact_photo from "../../assets/images/dm_contact_photo.jpg";
+import dm_contact_photo from "../../assets/images/dm_contact_photo.webp";
 import bmc_qr_doublemaltduo from "../../assets/images/bmc_qr_doublemaltduo_tipjar.png";
 function Contact() {
   return (

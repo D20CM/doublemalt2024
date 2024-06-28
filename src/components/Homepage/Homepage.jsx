@@ -1,5 +1,5 @@
 import css from "./homepage.module.css";
-import dm_homepage_photo from "../../assets/images/dm_homepage_photo.jpg";
+import dm_homepage_photo from "../../assets/images/dm_homepage_photo.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
