@@ -87,6 +87,11 @@ h2 span {
     justify-items: center;
   }
 
+  .acoustic,
+  .electric {
+    margin: 2em 0;
+  }
+
   .acousticvideo,
   .electricvideo {
     align-self: center;
