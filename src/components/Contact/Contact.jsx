@@ -10,8 +10,11 @@ function Contact() {
         </h2>
         <p>
           Please get in touch at <br></br>
-          <a href="#">info@doublemaltduo.com</a> <br></br> or 07974 201346 (UK
-          mobile) <br></br>We’re also on social media here;
+          <a href="mailto:info@doublemaltduo.com">
+            info@doublemaltduo.com
+          </a>{" "}
+          <br></br> or 07974 201346 (UK mobile) <br></br>We’re also on social
+          media here;
         </p>
         <p className={css.socials}>
           <a
