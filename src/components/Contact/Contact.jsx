@@ -56,12 +56,15 @@ function Contact() {
           And if you’d like to buy us a drink, you can scan the QR code below or
           click the tips jar button in the menu – cheers!
         </p>
-        <img
-          src={bmc_qr_doublemaltduo}
-          className={css.qrcode}
-          alt="QR code linking to our Buy Me A Coffee page."
-        ></img>
+        <a href="https://buymeacoffee.com/doublemaltduo" target="_blank">
+          <img
+            src={bmc_qr_doublemaltduo}
+            className={css.qrcode}
+            alt="QR code linking to our Buy Me A Coffee page."
+          ></img>
+        </a>
       </div>
+
       <img
         src={dm_contact_photo}
         className={css.contactimage}

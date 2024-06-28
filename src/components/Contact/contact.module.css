@@ -31,6 +31,8 @@ a {
 
 .qrcode {
   display: block;
+  height: 180px;
+  width: 180px;
   max-width: 10em;
   margin: 1em 0;
   text-align: left;
