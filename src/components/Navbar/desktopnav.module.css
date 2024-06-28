@@ -7,6 +7,9 @@
   border-right: 2em solid var(--white);
   position: fixed;
   width: 100%;
+  max-width: 2000px;
+  left: 50%;
+  transform: translate(-50%, 0);
   background-color: var(--white);
   z-index: 3000;
 }
