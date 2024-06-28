@@ -34,8 +34,14 @@ function About() {
           </p>
         </div>
         <div className={css.headshots}>
-          <img src={scottsolo}></img>
-          <img src={kathleensolo}></img>
+          <img
+            src={scottsolo}
+            alt="Scott Brown, Guitarist and Pianist for Double Malt Duo"
+          ></img>
+          <img
+            src={kathleensolo}
+            alt="Kathleen Button, Vocalist, Guitarist and Saxophonist for Double Malt Duo"
+          ></img>
         </div>
         <hr></hr>
       </section>

@@ -51,7 +51,11 @@ function Homepage() {
           Ferries.
         </p>
 
-        <img src={dm_homepage_photo} className={css.dm_homepage_photo} />
+        <img
+          src={dm_homepage_photo}
+          className={css.dm_homepage_photo}
+          alt="A picture of Double Malt Duo standing, each holding an acoustic guitar and looking away from camera."
+        />
       </section>
     </>
   );

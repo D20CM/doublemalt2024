@@ -56,9 +56,17 @@ function Contact() {
           And if you’d like to buy us a drink, you can scan the QR code below or
           click the tips jar button in the menu – cheers!
         </p>
-        <img src={bmc_qr_doublemaltduo} className={css.qrcode}></img>
+        <img
+          src={bmc_qr_doublemaltduo}
+          className={css.qrcode}
+          alt="QR code linking to our Buy Me A Coffee page."
+        ></img>
       </div>
-      <img src={dm_contact_photo} className={css.contactimage}></img>
+      <img
+        src={dm_contact_photo}
+        className={css.contactimage}
+        alt="A photo of Double Malt Duo in smart attire and looking at each other, with 2 guitars and a saxophone."
+      ></img>
     </section>
   );
 }
