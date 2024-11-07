@@ -1,0 +1,40 @@
+.galleryContainer {
+  text-align: center;
+  background-color: var(--white);
+}
+
+.galleryContainer h2 {
+  text-align: left;
+  padding: 1em auto;
+  margin: 0 0 1em 4em;
+  /* color: var(--black); */
+}
+
+.photogrid {
+  width: 80vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+  grid-template-rows: auto;
+  /* gap: 1em; */
+  /* border: 6px solid var(--primary-highlight); */
+  border-radius: 0.5em;
+  /* padding: 1em; */
+  margin: 0 auto;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .galleryContainer h2 {
+    margin-left: 0.5em;
+  }
+  .photogrid {
+    width: 90vw;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr; */
+    margin: auto;
+    justify-items: center;
+    justify-content: center;
+  }
+}
