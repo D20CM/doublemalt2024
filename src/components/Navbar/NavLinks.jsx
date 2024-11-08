@@ -17,7 +17,9 @@ function NavLinks({ isOpen, closeMenu }) {
         </a>
       </li>
       <li onClick={() => closeMenu()}>
-        <span>P</span>hotos
+        <a href="#photos">
+          <span>P</span>hotos
+        </a>
       </li>
       <li onClick={() => closeMenu()}>
         <a href="#contact">
