@@ -16,7 +16,7 @@ function Gallery() {
   //   }
 
   return (
-    <div className={css.galleryContainer}>
+    <div className={css.galleryContainer} id="photos">
       <h2>
         <span>P</span>hoto <span>G</span>allery
       </h2>
